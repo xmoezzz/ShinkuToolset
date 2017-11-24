@@ -1,0 +1,71 @@
+﻿生成启动时间为 2014/5/26 16:00:11。
+     1>项目“D:\迅雷下载\zlib128\zlib-1.2.8\contrib\vstudio\vc10\zlibvc.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“x86\ZlibDllDebug\Tmp\zlibvc.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       PreBuildEvent:
+         cd ..\..\masmx86
+         bld_ml32.bat
+         :VCEnd
+         Microsoft (R) Macro Assembler Version 10.00.30319.01
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+          Assembling: match686.asm
+         Microsoft (R) Macro Assembler Version 10.00.30319.01
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+          Assembling: inffas32.asm
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\.. /I..\..\masmx86 /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _CRT_NONSTDC_NO_DEPRECATE /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_WARNINGS /D ZLIB_WINAPI /D ASMV /D ASMINF /D _WINDLL /Gm- /MTd /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x86\ZlibDllDebug\Tmp\\" /Fd"x86\ZlibDllDebug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\..\adler32.c ..\..\..\compress.c ..\..\..\crc32.c ..\..\..\deflate.c ..\..\..\gzclose.c ..\..\..\gzlib.c ..\..\..\gzread.c ..\..\..\gzwrite.c ..\..\..\infback.c ..\..\..\inffast.c ..\..\..\inflate.c ..\..\..\inftrees.c ..\..\minizip\ioapi.c ..\..\minizip\iowin32.c ..\..\..\trees.c ..\..\..\uncompr.c ..\..\minizip\unzip.c ..\..\minizip\zip.c ..\..\..\zutil.c
+         adler32.c
+         compress.c
+         crc32.c
+         deflate.c
+         gzclose.c
+         gzlib.c
+         gzread.c
+         gzwrite.c
+         infback.c
+         inffast.c
+         inflate.c
+         inftrees.c
+         ioapi.c
+         iowin32.c
+         trees.c
+         uncompr.c
+         unzip.c
+         zip.c
+         zutil.c
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /l"0x040c" /nologo /fo"x86\ZlibDllDebug\Tmp\zlib.res" zlib.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"x86\ZlibDllDebug\zlibwapid.dll" /INCREMENTAL /NOLOGO ..\..\masmx86\match686.obj ..\..\masmx86\inffas32.obj kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:".\zlibvc.def" /MANIFEST:NO /DEBUG /PDB:"D:\迅雷下载\zlib128\zlib-1.2.8\contrib\vstudio\vc10\x86\ZlibDllDebug\zlibwapid.pdb" /MAP /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"x86\ZlibDllDebug\zlibwapid.lib" /MACHINE:X86 /DLL x86\ZlibDllDebug\Tmp\zlib.res
+         x86\ZlibDllDebug\Tmp\adler32.obj
+         x86\ZlibDllDebug\Tmp\compress.obj
+         x86\ZlibDllDebug\Tmp\crc32.obj
+         x86\ZlibDllDebug\Tmp\deflate.obj
+         x86\ZlibDllDebug\Tmp\gzclose.obj
+         x86\ZlibDllDebug\Tmp\gzlib.obj
+         x86\ZlibDllDebug\Tmp\gzread.obj
+         x86\ZlibDllDebug\Tmp\gzwrite.obj
+         x86\ZlibDllDebug\Tmp\infback.obj
+         x86\ZlibDllDebug\Tmp\inffast.obj
+         x86\ZlibDllDebug\Tmp\inflate.obj
+         x86\ZlibDllDebug\Tmp\inftrees.obj
+         x86\ZlibDllDebug\Tmp\ioapi.obj
+         x86\ZlibDllDebug\Tmp\iowin32.obj
+         x86\ZlibDllDebug\Tmp\trees.obj
+         x86\ZlibDllDebug\Tmp\uncompr.obj
+         x86\ZlibDllDebug\Tmp\unzip.obj
+         x86\ZlibDllDebug\Tmp\zip.obj
+         x86\ZlibDllDebug\Tmp\zutil.obj /MACHINE:I386 
+            正在创建库 x86\ZlibDllDebug\zlibwapid.lib 和对象 x86\ZlibDllDebug\zlibwapid.exp
+         zlibvc.vcxproj -> D:\迅雷下载\zlib128\zlib-1.2.8\contrib\vstudio\vc10\x86\ZlibDllDebug\zlibwapid.dll
+       FinalizeBuildStatus:
+         正在删除文件“x86\ZlibDllDebug\Tmp\zlibvc.unsuccessfulbuild”。
+         正在对“x86\ZlibDllDebug\Tmp\zlibvc.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\迅雷下载\zlib128\zlib-1.2.8\contrib\vstudio\vc10\zlibvc.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:14.23
